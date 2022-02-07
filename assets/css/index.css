@@ -55,6 +55,9 @@ a{
     50% { opacity: 1; }
   }
 
+  .left{
+    margin-top: 100px;
+  }
   .banniere{
     position: relative;
     top: 160px;
@@ -63,8 +66,24 @@ a{
  .auto-typing{
     font-size: 34px;
     margin: 20px 0px;
+    height: 50px;
  }
 
- p, h2{
+ .banniere p, .banniere h2{
     color: white;
+ }
+
+ .texte-descriptif p{
+    margin-top: 20px;
+ }
+ .link ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+ }
+
+ .link ul li{
+    margin-left: 15px;
  }
