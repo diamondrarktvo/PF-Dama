@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css.map">
     <link rel="stylesheet" href="../assets/css/index.css">
+	<link href="../assets/fontawesome/css/all.css" rel="stylesheet">
+	<link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -29,6 +31,34 @@
                 </div>
         </div>
 
+        
+        <div class="banniere row justify-content-between">
+            <div class="small-description col-6">
+                <div class="left">
+                    <div class="texte-titre">
+                        <h2>Hello <span style="color: #ff4900;">World !</span></h2>
+                        <div class="auto-typing"></div>
+                        <div class="texte-descriptif">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, repellendus 
+                            porro, ipsum eaque fugit doloremque consequatur molestias veniam iste a facere 
+                            delectus maiores mollitia! Obcaecati sed debitis ipsam quis corrupti?</p>
+                        </div>
+                    </div>
+                
+                    <div class="link">
+                        <ul class="social-link">
+                            <li><a href="#"><img src="../assets/img/facebook.png" width="40" height="40"></a></li>
+                            <li><a href="#"><img src="../assets/img/g+.png" width="40" height="40"></a></li>
+                            <li><a href="#"><img src="../assets/img/Github.png" width="40" height="40"></a></li>
+                            <li><a href="#"><img src="../assets/img/linkedin.png" width="40" height="40"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-profil col-5">
+                <img src="../assets/img/stark.jpg" alt="Mon profil" width="300" height="470">
+            </div>
+        </div>
 
 
 
@@ -48,5 +78,22 @@
     <script src="../assets/jquery/jquery.min.js"></script>
 	<script src="../assets/bootstrap/js/bootstrap.js"></script>
 	<script src="../assets/jquery.easing/jquery.easing.min.js"></script>
+    <script src="../assets/js/min.autoType.1.0.0.js"></script>
+
+    <script>
+            autoTyping({
+                container : document.querySelector('.auto-typing'),
+                    text : ['Diamondra RAKOTOARINAIVO' , 'Developpeur front-end'],
+                    loop : true, 
+                typeSpeed : 200,
+                loopSpeed : 700,
+                    color : ['white']
+
+            }).start();
+                
+            
+
+	</script>
+</body>
 </body>
 </html>
