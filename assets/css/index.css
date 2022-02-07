@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.navbar-nav li a:hover{
+    color: #ff4900;
+    transition: 0.5s;
+    padding: 0px 30px;
+}
+
+
+.navbar .logo{
+    color: #ff4900;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.my-navbar{
+    margin: 0px 110px;
+}
