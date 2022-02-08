@@ -2,6 +2,11 @@ body{
     background-color: black;
 }
 
+.conteneur-principale{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 a{
     color: white;
@@ -87,3 +92,34 @@ a{
  .link ul li{
     margin-left: 15px;
  }
+
+  /*section about*/
+  .about{
+    margin:  450px 0px 50px 0px;
+  }
+
+  .photo-about{
+    border: 8px solid #ff4900;
+    padding: 0px;
+    margin-right: 120px;
+  }
+
+  .my-information{
+    margin: 30px 0px;
+  }
+
+  .my-information h3, .my-information ul .cle{
+    color: white;
+  }
+  .my-information ul .cle{
+    font-weight: bold;
+  }
+
+  .my-information .body-content-about li{
+    list-style-type: none;
+  }
+
+  .my-information .body-content-about .list-info{
+    display: flex;
+    flex-direction: row;
+  }
