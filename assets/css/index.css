@@ -105,7 +105,7 @@ a{
   }
 
   .my-information{
-    margin: 30px 0px;
+    margin: 20px 0px;
   }
 
   .my-information h3, .my-information ul .cle{
@@ -117,9 +117,22 @@ a{
 
   .my-information .body-content-about li{
     list-style-type: none;
+    color:  #ede4e4;
   }
 
   .my-information .body-content-about .list-info{
     display: flex;
     flex-direction: row;
+  }
+
+
+  .down-cv{
+    border-radius: 30px;
+    border-color: #ff4900;
+    background-color: #ff4900;
+    padding: 10px;
+  }
+  .down-cv a:hover{
+    color: white;
+    text-decoration: none;
   }
