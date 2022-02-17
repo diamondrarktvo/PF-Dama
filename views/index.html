@@ -14,7 +14,7 @@
 	<link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container d-flex flex-column conteneur-principale">
+    <div id="top" class="container d-flex flex-column conteneur-principale">
         <div class="my-navbar navbar fixed-top navbar-expand-lg">
                 <a href="index.html" class="navbar-brand logo">Dama</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
@@ -22,15 +22,19 @@
                 </button>
                 <div id="navbarContent" class="collapse navbar-collapse justify-content-lg-end">
                     <ul class="navbar-nav">
-                        <li class="nav-item m-3"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item m-3"><a class="nav-link" href="#top">Home</a></li>
                         <li class="nav-item m-3"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item m-3"><a class="nav-link" href="#service">Services</a></li>
                         <li class="nav-item m-3"><a class="nav-link" href="#">Formations</a></li>
                         <li class="nav-item m-3"><a class="nav-link" href="#">Projets</a></li>
                         <li class="nav-item m-3"><a class="nav-link" href="#">Contact</a></li>
                     </ul>
                 </div>
         </div>
-
+        
+        <div class="nav-top absolute fixed-bottom">
+            <a href="#top"><span class="fleche-top">↑</span></a>
+        </div>
         
         <div class="banniere row justify-content-between">
             <div class="small-description col-6">
@@ -47,10 +51,10 @@
                 
                     <div class="link">
                         <ul class="social-link">
-                            <li><a href="#"><img src="../assets/img/facebook.png" width="40" height="40"></a></li>
-                            <li><a href="#"><img src="../assets/img/g+.png" width="40" height="40"></a></li>
-                            <li><a href="#"><img src="../assets/img/Github.png" width="40" height="40"></a></li>
-                            <li><a href="#"><img src="../assets/img/linkedin.png" width="40" height="40"></a></li>
+                            <li><a href="#"><img src="../assets/img/facebook.png" width="40" height="40" alt="fb icone"></a></li>
+                            <li><a href="#"><img src="../assets/img/g+.png" width="40" height="40" alt="gmail icone"></a></li>
+                            <li><a href="#"><img src="../assets/img/Github.png" width="40" height="40" alt="github icone"></a></li>
+                            <li><a href="#"><img src="../assets/img/linkedin.png" width="40" height="40" alt="linkedin icone"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -102,6 +106,39 @@
             </div>
         </div>
 
+        <div id="service" class="my-service">
+            <div class="head-service text-center text-white">
+                <div class="banniere-service">
+                    <p class="m-0 p-0">What I Do ?</p>
+                </div>
+                <h2>My Service</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis 
+                    sapiente natus provident commodi reiciendis id deserunt optio itaque, 
+                    praesentium aliquam quos veniam exercitationem facere delectus dolor 
+                    consequuntur sequi recusandae repudiandae.
+                </p>
+                <hr style="background-color: #ff4900; height: 2px; margin: 0px 46%;" />
+            </div>
+            <div class="conteneur-service">
+               <div class="content-service">
+                   <div class="icone">
+                       <i class="fa-3x fas fa-laptop" style="color: #ff4900;"></i>
+                   </div>
+               </div>
+
+               <div class="content-service">
+                   <div class="icone">
+                       <i class="fa-3x fas fa-mobile" style="color: #ff4900;"></i>
+                   </div>
+               </div>
+
+               <div class="content-service">
+                   <div class="icone">
+                       <i class="fa-3x fas fa-" style="color: #ff4900;"></i>
+                   </div>
+               </div>
+            </div>
+        </div>
 
 
 
@@ -132,9 +169,6 @@
                     color : ['white']
 
             }).start();
-                
-            
-
 	</script>
 </body>
 </body>

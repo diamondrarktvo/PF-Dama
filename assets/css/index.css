@@ -2,6 +2,23 @@ body{
     background-color: black;
 }
 
+.nav-top{
+  left: 94%;
+  margin-bottom: 10px;
+}
+.fleche-top{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  border: 1px solid #ff4900;
+  background-color: #ff4900;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+
 .conteneur-principale{
     display: flex;
     flex-direction: column;
@@ -28,7 +45,7 @@ a{
     margin-bottom: 10px;
 }
 .my-navbar{
-    margin: 0px 110px;
+    margin: 0px 105px;
 }
 
 
@@ -93,9 +110,10 @@ a{
     margin-left: 15px;
  }
 
+
   /*section about*/
   .about{
-    margin:  450px 0px 50px 0px;
+    margin:  370px 0px 100px 0px;
   }
 
   .photo-about{
@@ -120,11 +138,6 @@ a{
     color:  #ede4e4;
   }
 
-  .my-information .body-content-about .list-info{
-    display: flex;
-    flex-direction: row;
-  }
-
 
   .down-cv{
     border-radius: 30px;
@@ -136,3 +149,24 @@ a{
     color: white;
     text-decoration: none;
   }
+
+  /*Section SERVICE*/
+  .my-service{
+    margin: 80px 0px 100px 0px;
+  }
+
+  .head-service{
+    width: 50%;
+    margin: 0px auto;
+  }
+
+  .banniere-service{
+    padding: 0px;
+    background-color: #ff4900;
+    border: 1px solid #ff4900;
+    width: 20%;
+    margin: auto;
+    border-radius: 7px;
+  }
+
+  
