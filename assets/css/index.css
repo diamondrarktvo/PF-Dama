@@ -153,6 +153,8 @@ a{
   /*Section SERVICE*/
   .my-service{
     margin: 80px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
   }
 
   .head-service{
@@ -169,4 +171,6 @@ a{
     border-radius: 7px;
   }
 
-  
+  .conteneur-service{
+    margin-top: 80px;
+  }
