@@ -2,20 +2,25 @@ body{
     background-color: black;
 }
 
+.badge-head{
+  padding: 0px;
+  background-color: #ff4900;
+  border: 1px solid #ff4900;
+  margin: auto;
+  border-radius: 7px;
+}
+
 .nav-top{
   left: 94%;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .fleche-top{
-  display: block;
-  text-align: center;
-  font-size: 30px;
-  font-weight: bolder;
+  width: 50px;
+  height: 45px;
   border: 1px solid #ff4900;
   background-color: #ff4900;
-  border-radius: 50px;
-  width: 50px;
-  height: 50px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .conteneur-principale{
@@ -160,14 +165,6 @@ a{
     margin: 0px auto;
   }
 
-  .banniere-service{
-    padding: 0px;
-    background-color: #ff4900;
-    border: 1px solid #ff4900;
-    margin: auto;
-    border-radius: 7px;
-  }
-
   .conteneur-service{
     margin-top: 80px;
     display: flex;
@@ -183,7 +180,7 @@ a{
 
   /*FREELANCE SECTION*/
   .freelance{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     height: 350px;
     background-image: url(../img/bg-freelance.jpg);
     position: relative;
@@ -214,4 +211,13 @@ a{
   }
   .freelance-btn:hover{
     color: #ff4900;
+  }
+
+  /*PROJECT SECTION*/
+  .my-projects{
+    margin-bottom: 100px;
+  }
+  .head-projects{
+    width: 50%;
+    margin: 0px auto;
   }
